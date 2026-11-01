@@ -1,5 +1,3 @@
-# trajectory_tracker
-Discrete-time state-space simulation of a 2D mobile robot tracing parametric Fourier trajectories under Gaussian noise, featuring a custom Linear Kalman Filter and closed-loop PID controller with RMSE evaluation.
 # 2D Autonomous Trajectory Tracker & State Estimator
 
 A rigorous Python-based simulation framework implementing a discrete-time **Linear Kalman Filter** combined with a **Closed-Loop PID Controller** and **Path-Curvature Feedforward Acceleration** to execute autonomous 2D trajectory tracking along complex parametric paths (e.g., high-resolution vector outline extractions).
