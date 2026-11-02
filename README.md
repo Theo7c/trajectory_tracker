@@ -5,11 +5,16 @@ A rigorous Python-based simulation framework implementing a discrete-time **Line
 ## 📊 Visual Results
 
 <p align="center">
-  <img src="frieren_path.png" alt="2D Autonomous Trajectory Tracking Simulation" width="750">
+  <img src="frieren_path.png" alt="Frieren path 2D Autonomous Trajectory Tracking Simulation" width="750">
   <br>
   <em>Figure 1: Benchmark comparison showing uncompensated open-loop drift vs. closed-loop Kalman + PID tracking along the parametric reference path.</em>
 </p>
 
+<p align="center">
+  <img src="trajectory_tracking_results.png" alt="Example path 2D Autonomous Trajectory Tracking Simulation" width="750">
+  <br>
+  <em>Figure 1: Benchmark comparison showing uncompensated open-loop drift vs. closed-loop Kalman + PID tracking along the parametric reference path.</em>
+</p>
 
 ## 🧠 System Architecture & Methodology
 
@@ -91,7 +96,7 @@ python trajectory_sim.py
 
 ### What happens when you run it:
 
-1. The script loads the 2D reference trajectory from `frieren_path.npy`.
+1. The script loads the 2D reference trajectory from `example_path.npy`.
 2. `scipy.optimize.minimize` runs up to 25 iterations of the Nelder-Mead algorithm using a deterministic noise seed to tune the PID gains.
 3. The final simulation executes and prints the **Open-Loop RMSE** versus the **Kalman + PID RMSE** to the terminal.
 4. The resulting plot is saved to `trajectory_tracking_results.png` and displayed on screen.
