@@ -3,18 +3,18 @@
 A rigorous Python-based simulation framework implementing a discrete-time **Linear Kalman Filter** combined with a **Closed-Loop PID Controller** and **Path-Curvature Feedforward Acceleration** to execute autonomous 2D trajectory tracking along complex parametric paths (e.g., high-resolution vector outline extractions).
 
 ## 📊 Visual Results
-
-<p align="center">
-  <img src="frieren_path.png" alt="Frieren path 2D Autonomous Trajectory Tracking Simulation" width="750">
-  <br>
-  <em>Figure 1: Benchmark comparison showing uncompensated open-loop drift vs. closed-loop Kalman + PID tracking along the parametric reference path.</em>
-</p>
-
 <p align="center">
   <img src="trajectory_tracking_results.png" alt="Example path 2D Autonomous Trajectory Tracking Simulation" width="750">
   <br>
   <em>Figure 1: Benchmark comparison showing uncompensated open-loop drift vs. closed-loop Kalman + PID tracking along the parametric reference path.</em>
 </p>
+<p align="center">
+  <img src="frieren_path.png" alt="Frieren path 2D Autonomous Trajectory Tracking Simulation" width="750">
+  <br>
+  <em>Figure 2: Benchmark comparison showing uncompensated open-loop drift vs. closed-loop Kalman + PID tracking along the parametric reference path.</em>
+</p>
+
+
 
 ## 🧠 System Architecture & Methodology
 
