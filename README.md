@@ -4,8 +4,12 @@ A rigorous Python-based simulation framework implementing a discrete-time **Line
 
 ## 📊 Visual Results
 
+<p align="center">
+  <img src="frieren_path.png" alt="2D Autonomous Trajectory Tracking Simulation" width="750">
+  <br>
+  <em>Figure 1: Benchmark comparison showing uncompensated open-loop drift vs. closed-loop Kalman + PID tracking along the parametric reference path.</em>
+</p>
 
-*Figure 1: Comparison of uncompensated open-loop random-walk drift versus smooth closed-loop Kalman + PID trajectory tracking across a complex Fourier epicycle reference path (`frieren_path.npy`).*
 
 ## 🧠 System Architecture & Methodology
 
