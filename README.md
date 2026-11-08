@@ -88,8 +88,6 @@ pip install numpy scipy matplotlib
 Clone the repository and execute the main script:
 
 ```
-git clone https://github.com/Theo7c/<your-repo-name>.git
-cd <your-repo-name>
 python trajectory_sim.py
 
 ```
